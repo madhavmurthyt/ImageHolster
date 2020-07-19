@@ -4,6 +4,9 @@
 # Ignore node_modules folder
 /target
 
+#ignore .class files
+.class
+
 # Ignore all text files
 *.txt
 
@@ -13,4 +16,5 @@
 # Ignore SASS config files
 .sass-cache
 
-.idea/workspace.xml
+# ignore .idea/ folder filesgit
+.idea/
