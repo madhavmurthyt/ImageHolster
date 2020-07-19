@@ -2,7 +2,7 @@
 .DS_store
 
 # Ignore node_modules folder
-/target
+/target/
 
 #ignore .class files
 .class
@@ -17,4 +17,4 @@
 .sass-cache
 
 # ignore .idea/ folder filesgit
-.idea/
+/.idea/
