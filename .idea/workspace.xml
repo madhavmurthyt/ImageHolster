@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +44,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>post</find>
-      <find>hibernate</find>
-      <find>retype</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +79,37 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ImageHosterApplication">
+    <configuration name="CommentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.CommentControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -87,6 +126,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageControllerTest" />
+        <item itemvalue="JUnit.CommentControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595141884915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="enhanced the ignore list">
+      <created>1595142069442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595142069442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="enhanced the ignore list">
+      <created>1595142269386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595142269386</updated>
+    </task>
+    <task id="LOCAL-00004" summary="enhanced the ignore list">
+      <created>1595142333566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595142333566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,57 +205,62 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding .gitignore file" />
+    <MESSAGE value="enhanced the ignore list" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhanced the ignore list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="599" y="122" key="CommitChangelistDialog2" timestamp="1595141884714">
+    <state x="599" y="122" key="CommitChangelistDialog2" timestamp="1595142333420">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="599" y="122" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1595141884714" />
-    <state width="1137" height="141" key="GridCell.Tab.0.bottom" timestamp="1595141605605">
+    <state x="599" y="122" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1595142333420" />
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom" timestamp="1595223680302">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595141605605" />
-    <state width="1447" height="141" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595139635822" />
-    <state width="1137" height="141" key="GridCell.Tab.0.center" timestamp="1595141605604">
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595223680302" />
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595223500131" />
+    <state width="1137" height="395" key="GridCell.Tab.0.center" timestamp="1595223680301">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1595141605604" />
-    <state width="1447" height="141" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1595139635821" />
-    <state width="1137" height="141" key="GridCell.Tab.0.left" timestamp="1595141605604">
+    <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1595223680301" />
+    <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1595223500130" />
+    <state width="1137" height="395" key="GridCell.Tab.0.left" timestamp="1595223680300">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1595141605604" />
-    <state width="1447" height="141" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1595139635820" />
-    <state width="1137" height="141" key="GridCell.Tab.0.right" timestamp="1595141605605">
+    <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1595223680300" />
+    <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1595223500129" />
+    <state width="1137" height="395" key="GridCell.Tab.0.right" timestamp="1595223680301">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1595141605605" />
-    <state width="1447" height="141" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1595139635821" />
-    <state width="1137" height="141" key="GridCell.Tab.1.bottom" timestamp="1595141605607">
+    <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1595223680301" />
+    <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1595223500130" />
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom" timestamp="1595223432889">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595223432889" />
+    <state width="1137" height="395" key="GridCell.Tab.1.center" timestamp="1595223432888">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
+    <state width="1137" height="395" key="GridCell.Tab.1.left" timestamp="1595223432888">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1595170261104" />
+    <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
+    <state width="1137" height="395" key="GridCell.Tab.1.right" timestamp="1595223432888">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
+    <state x="631" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595142272621">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595141605607" />
-    <state width="1447" height="141" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595139635823" />
-    <state width="1137" height="141" key="GridCell.Tab.1.center" timestamp="1595141605606">
+    <state x="631" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1595142272621" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1595156359909">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1137" height="141" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1595141605606" />
-    <state width="1447" height="141" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1595139635823" />
-    <state width="1137" height="141" key="GridCell.Tab.1.left" timestamp="1595141605606">
-      <screen x="0" y="23" width="1680" height="975" />
-    </state>
-    <state width="1137" height="141" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1595141605606" />
-    <state width="1447" height="141" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1595139635822" />
-    <state width="1137" height="141" key="GridCell.Tab.1.right" timestamp="1595141605606">
-      <screen x="0" y="23" width="1680" height="975" />
-    </state>
-    <state width="1137" height="141" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1595141605606" />
-    <state width="1447" height="141" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1595139635823" />
-    <state x="631" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595141890846">
-      <screen x="0" y="23" width="1680" height="975" />
-    </state>
-    <state x="631" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1595141890846" />
+    <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1595156359909" />
   </component>
   <component name="masterDetails">
     <states>

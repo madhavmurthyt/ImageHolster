@@ -67,9 +67,9 @@ public class ImageRepository {
     public Image getImage(Integer imageId) {
         EntityManager em = emf.createEntityManager();
         try {
-        TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.id =:imageId", Image.class).setParameter("imageId", imageId);
-        Image image = typedQuery.getSingleResult();
-        return image;
+            TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.id =:imageId", Image.class).setParameter("imageId", imageId);
+            Image image = typedQuery.getSingleResult();
+            return image;
         } catch (NoResultException nre) {
             return null;
         }
@@ -91,6 +91,7 @@ public class ImageRepository {
             return null;
         }
     }
+
     //The method receives the Image object to be updated in the database
     //Creates an instance of EntityManager
     //Starts a transaction

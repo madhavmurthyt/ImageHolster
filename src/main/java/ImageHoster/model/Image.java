@@ -45,6 +45,13 @@ public class Image {
     @JoinColumn(name = "user_id")
     private User user;
 
+    //The 'images' table is referenced by the 'comments' table
+    //The table (primary key) is referenced by the 'image' field in the 'comments' table
+    //cascade = CascadeType.REMOVE specifies that if a record in 'images' table is deleted, then all the records in 'comments' table associated to that particular record in 'images' table will be deleted first and then the record in the 'images' table will be deleted
+    //FetchType is LAZY
+    @OneToMany(mappedBy = "image", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+    private List<Comment> comment = new ArrayList<>();
+
     //The attribute contains a list of all the tags of an image
     //Note that no column will be generated for this attribute in the database instead a new table will be created
     //Since the mapping is Many to Many, a new table will be generated containing the two columns both referencing to the primary key of both the tables ('images', 'tags')
@@ -68,7 +75,6 @@ public class Image {
         this.description = description;
         this.date = date;
     }
-
 
 
     public Integer getId() {
@@ -125,5 +131,13 @@ public class Image {
 
     public void setTags(List<Tag> tags) {
         this.tags = tags;
+    }
+
+    public List<Comment> getComments() {
+        return comment;
+    }
+
+    public void setComments(List<Image> images) {
+        this.comment = comment;
     }
 }

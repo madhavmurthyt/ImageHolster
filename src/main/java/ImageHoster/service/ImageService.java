@@ -6,8 +6,6 @@ import ImageHoster.repository.ImageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Service
@@ -39,7 +37,7 @@ public class ImageService {
 
     //The method calls getImageByUserId in the Repository and passes User object and imageId
     public Image getImageByUserId(User user, Integer imageId) {
-        return imageRepository.getImageByUserId(user,imageId);
+        return imageRepository.getImageByUserId(user, imageId);
     }
 
     //The method calls the updateImage() method in the Repository and passes the Image to be updated in the database

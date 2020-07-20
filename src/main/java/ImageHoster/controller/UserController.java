@@ -52,11 +52,11 @@ public class UserController {
                 + ".{8,20}$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(checkPassword);
-        if(m.matches()) {
+        if (m.matches()) {
             userService.registerUser(user);
             return "redirect:/users/login";
         } else {
-            redirectAttributes.addFlashAttribute("passwordTypeError",true);
+            redirectAttributes.addFlashAttribute("passwordTypeError", true);
             return "redirect:/users/registration";
         }
 

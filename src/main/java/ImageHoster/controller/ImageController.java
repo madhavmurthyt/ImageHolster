@@ -1,8 +1,10 @@
 package ImageHoster.controller;
 
+import ImageHoster.model.Comment;
 import ImageHoster.model.Image;
 import ImageHoster.model.Tag;
 import ImageHoster.model.User;
+import ImageHoster.service.CommentService;
 import ImageHoster.service.ImageService;
 import ImageHoster.service.TagService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +30,9 @@ public class ImageController {
     @Autowired
     private TagService tagService;
 
+    @Autowired
+    private CommentService commentService;
+
     //This method displays all the images in the user home page after successful login
     @RequestMapping("images")
     public String getUserImages(Model model) {
@@ -51,8 +56,10 @@ public class ImageController {
         Image image = imageService.getImage(id);
         model.addAttribute("image", image);
         model.addAttribute("tags", image.getTags());
+        model.addAttribute("comments", image.getComments());
         return "images/image";
     }
+
 
     //This controller method is called when the request pattern is of type 'images/upload'
     //The method returns 'images/upload.html' file
@@ -118,7 +125,7 @@ public class ImageController {
 
         Image image = imageService.getImage(imageId);
         User user = (User) session.getAttribute("loggeduser");
-        if(imageService.getImageByUserId(user,imageId)!=null) {
+        if (imageService.getImageByUserId(user, imageId) != null) {
             String updatedImageData = convertUploadedFileToBase64(file);
             List<Tag> imageTags = findOrCreateTags(tags);
 
@@ -135,7 +142,7 @@ public class ImageController {
         } else {
             redirectAttributes.addFlashAttribute("editError", true);
         }
-        return "redirect:/images/"+imageId+ "/" + updatedImage.getTitle();
+        return "redirect:/images/" + imageId + "/" + updatedImage.getTitle();
     }
 
 
@@ -143,7 +150,7 @@ public class ImageController {
     //The method calls the deleteImage() method in the business logic passing the id of the image to be deleted
     //Looks for a controller method with request mapping of type '/images'
     @RequestMapping(value = "/deleteImage", method = RequestMethod.DELETE)
-    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId, HttpSession session,Image updatedImage, RedirectAttributes redirectAttributes) {
+    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId, HttpSession session, Image updatedImage, RedirectAttributes redirectAttributes) {
 
         User user = (User) session.getAttribute("loggeduser");
         if (imageService.getImageByUserId(user, imageId) != null) {
@@ -157,6 +164,24 @@ public class ImageController {
         }
     }
 
+    //creatComments has been implemented to retrieve image from path variable and session objects respective
+    //retrieve comments text from requestparam
+    //create a comment object , set the right values for each comment variables
+    //call the createComment method to call the repository class to save it in the db
+    @RequestMapping(value = "/image/{imageId}/{imageTitle}/comments", method = RequestMethod.POST)
+    public String createComments(@PathVariable("imageId") Integer imageId, Comment newComment, @PathVariable("imageTitle") String imageTitle, @RequestParam("comment") String comments, HttpSession session) {
+
+        if (!comments.equals("") && comments != null) {
+            User user = (User) session.getAttribute("loggeduser");
+            Image image = imageService.getImage(imageId);
+            newComment.setCreatedDate(new Date());
+            newComment.setText(comments);
+            newComment.setUser(user);
+            newComment.setImage(image);
+            commentService.createComment(newComment);
+        }
+        return "redirect:/images/" + imageId + "/" + imageTitle;
+    }
 
     //This method converts the image to Base64 format
     private String convertUploadedFileToBase64(MultipartFile file) throws IOException {
