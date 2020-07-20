@@ -35,11 +35,6 @@ public class ImageService {
         return imageRepository.getImage(imageId);
     }
 
-    //The method calls getImageByUserId in the Repository and passes User object and imageId
-    public Image getImageByUserId(User user, Integer imageId) {
-        return imageRepository.getImageByUserId(user, imageId);
-    }
-
     //The method calls the updateImage() method in the Repository and passes the Image to be updated in the database
     public void updateImage(Image updatedImage) {
         imageRepository.updateImage(updatedImage);

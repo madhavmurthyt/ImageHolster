@@ -5,25 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +71,7 @@
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
   <component name="RunManager" selected="Spring Boot.ImageHosterApplication">
-    <configuration name="CommentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ImageHoster.controller" />
-      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.CommentControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.HomeControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +101,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ImageControllerTest.editImageWithNonOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="editImageWithNonOwnerOfTheImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageHoster.controller in ImageHoster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -126,8 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageControllerTest.editImageWithNonOwnerOfTheImage" />
+        <item itemvalue="JUnit.ImageHoster.controller in ImageHoster" />
         <item itemvalue="JUnit.ImageControllerTest" />
-        <item itemvalue="JUnit.CommentControllerTest" />
+        <item itemvalue="JUnit.HomeControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,49 +232,70 @@
     <option name="LAST_COMMIT_MESSAGE" value="enhanced the ignore list" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="630" y="176" key="#Inspections" timestamp="1595238821793">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="630" y="176" key="#Inspections/0.23.1680.975@0.23.1680.975" timestamp="1595238821793" />
+    <state x="495" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595248040513">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="495" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.974@0.23.1680.974" timestamp="1595248040513" />
+    <state x="541" y="125" width="979" height="772" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595255916415">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="541" y="125" width="979" height="772" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.974@0.23.1680.974" timestamp="1595255916415" />
+    <state x="541" y="125" width="979" height="772" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.975@0.23.1680.975" timestamp="1595238627289" />
     <state x="599" y="122" key="CommitChangelistDialog2" timestamp="1595142333420">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="599" y="122" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1595142333420" />
-    <state width="1137" height="395" key="GridCell.Tab.0.bottom" timestamp="1595223680302">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom" timestamp="1595259206511">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595223680302" />
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1595259206511" />
+    <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595241572727" />
     <state width="1137" height="395" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595223500131" />
-    <state width="1137" height="395" key="GridCell.Tab.0.center" timestamp="1595223680301">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1137" height="395" key="GridCell.Tab.0.center" timestamp="1595259206510">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1595223680301" />
+    <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1595259206510" />
+    <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1595241572726" />
     <state width="1137" height="395" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1595223500130" />
-    <state width="1137" height="395" key="GridCell.Tab.0.left" timestamp="1595223680300">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1137" height="395" key="GridCell.Tab.0.left" timestamp="1595259206510">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1595223680300" />
+    <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1595259206510" />
+    <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1595241572725" />
     <state width="1137" height="395" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1595223500129" />
-    <state width="1137" height="395" key="GridCell.Tab.0.right" timestamp="1595223680301">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state width="1137" height="395" key="GridCell.Tab.0.right" timestamp="1595259206511">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1595223680301" />
+    <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1595259206511" />
+    <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1595241572726" />
     <state width="1137" height="395" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1595223500130" />
-    <state width="1137" height="395" key="GridCell.Tab.1.bottom" timestamp="1595223432889">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom" timestamp="1595259206512">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.974@0.23.1680.974" timestamp="1595259206512" />
+    <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1595241572728" />
     <state width="1137" height="395" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1595223432889" />
-    <state width="1137" height="395" key="GridCell.Tab.1.center" timestamp="1595223432888">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1137" height="395" key="GridCell.Tab.1.center" timestamp="1595259206512">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.974@0.23.1680.974" timestamp="1595259206512" />
+    <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1595241572728" />
     <state width="1137" height="395" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
-    <state width="1137" height="395" key="GridCell.Tab.1.left" timestamp="1595223432888">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1137" height="395" key="GridCell.Tab.1.left" timestamp="1595259206511">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1595170261104" />
+    <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.974@0.23.1680.974" timestamp="1595259206511" />
+    <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1595241572727" />
     <state width="1137" height="395" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
-    <state width="1137" height="395" key="GridCell.Tab.1.right" timestamp="1595223432888">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1137" height="395" key="GridCell.Tab.1.right" timestamp="1595259206512">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1595170261105" />
+    <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.974@0.23.1680.974" timestamp="1595259206512" />
+    <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1595241572728" />
     <state width="1137" height="395" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1595223432888" />
     <state x="631" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595142272621">
       <screen x="0" y="23" width="1680" height="975" />
@@ -261,6 +305,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1595156359909" />
+    <state x="695" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1595252805829">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="695" y="239" width="670" height="676" key="search.everywhere.popup/0.23.1680.974@0.23.1680.974" timestamp="1595252805829" />
   </component>
   <component name="masterDetails">
     <states>

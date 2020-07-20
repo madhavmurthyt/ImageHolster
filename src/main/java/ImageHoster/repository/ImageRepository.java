@@ -76,22 +76,6 @@ public class ImageRepository {
     }
 
 
-    //The method creates an instance of EntityManager
-    //Executes JPQL query to fetch the image from the database with corresponding id for a particular user
-    //Returns the image fetched from the database
-    public Image getImageByUserId(User user, Integer imageId) {
-        EntityManager em = emf.createEntityManager();
-        try {
-            TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.user =:user and i.id=:imageId", Image.class);
-            typedQuery.setParameter("user", user);
-            typedQuery.setParameter("imageId", imageId);
-            Image image = typedQuery.getSingleResult();
-            return image;
-        } catch (NoResultException nre) {
-            return null;
-        }
-    }
-
     //The method receives the Image object to be updated in the database
     //Creates an instance of EntityManager
     //Starts a transaction
