@@ -49,7 +49,7 @@ public class Image {
     //The table (primary key) is referenced by the 'image' field in the 'comments' table
     //cascade = CascadeType.REMOVE specifies that if a record in 'images' table is deleted, then all the records in 'comments' table associated to that particular record in 'images' table will be deleted first and then the record in the 'images' table will be deleted
     //FetchType is LAZY
-    @OneToMany(mappedBy = "image", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "image", cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
     private List<Comment> comment = new ArrayList<>();
 
     //The attribute contains a list of all the tags of an image
@@ -137,7 +137,7 @@ public class Image {
         return comment;
     }
 
-    public void setComments(List<Image> images) {
+    public void setComments(List<Comment> comment) {
         this.comment = comment;
     }
 }

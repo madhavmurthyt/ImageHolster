@@ -137,14 +137,14 @@ public class ImageController {
             }
             updatedImage.setDate(new Date());
             imageService.updateImage(updatedImage);
+            return "redirect:images/"+imageId+"/"+image.getTitle();
         } else {
             model.addAttribute("image",image);
             model.addAttribute("tags",image.getTags());
             model.addAttribute("comments",image.getComments());
             model.addAttribute("editError", "Only the owner of the image can edit the image");
+            return "images/editImage";
         }
-        return "images/image";
-
 
     }
 
